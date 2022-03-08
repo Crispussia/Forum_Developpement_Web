@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="inscription_crispussia.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Inscription</title>
+</head>
+<body>
+<div class = "overlay">
+		<div class = "entete">
+			<input type="submit" onClick="window.location.href='inscription_crispussia.html'" name="" value="S'inscrire" class="full">
+			<input type="submit" onClick="window.location.href='index.html'" name="" value="Se connecter">
+		</div>
+
+    <form >
+        <h1>Inscription</h1>
+      
+            <div class="input-container">
+                
+                <i  class="fa fa-user icon"></i>
+                <input class="input-field" type="text" name="prenom" placeholder="Entrer votre prénom" id="prenom" autocomplete="off" required />
+                
+            </div>
+            <br>
+            <div class="input-container">
+                
+                <i class="fa fa-user icon"></i>
+                <input class="input-field" type="text" name="nom" placeholder="Entrer votre nom" id="nom" autocomplete="off" required />
+                
+            </div>
+            <br>
+            <div class="input-container">
+                
+                <i  class="fa fa-user icon"></i>
+                <input class="input-field" type="text" name="login" placeholder="Première lettre Majuscule reste en minuscule" id="login" autocomplete="off" required/>
+                
+            </div>
+           <br>
+           <!---->
+            <div class="input-container" >
+               
+               <i class="fa fa-key icon" ></i>
+               <input class="input-field" type="password" name="password" placeholder="Votre mot de passe" id="password" required/>
+               <i class="fa fa-eye" id="togglePassword" style="margin-left: -20px; cursor: pointer;"></i>
+            </div>
+           <br>
+           <div class="input-container">
+                
+                <i class="fa fa-key icon" ></i>
+                <input class="input-field" type="password" name="conf_password" placeholder="Confirmez mot de passe" id="conf_password" required/>
+                
+            </div>
+            <br>
+            <div class="input-container" id="role">
+              
+            </div>
+            <br>
+            <div class="input-container"> 
+              <i class="fa fa-list icon"></i>
+              <select name="department"class="input-field" id="department" >
+                <option value="0" disabled="true" selected>Select your Department</option>
+                
+               
+              </select>
+           
+            </div>
+           <br>
+            <div class="flex">
+                <input class="input-field" type="checkbox" id="cb1">
+                <label for="cb1">I agree with terms and conditions</label>
+            </div>  
+            <br>
+         <div>          
+            <input type="button" class="btn" name="inscription" value="S'incrire" id="inscription"  /> 
+        </div>  
+            
+    </form>
+</div>
+
+</body>
+<footer>
+	<script type="text/javascript" src="inscription_crispussia.js"></script>
+	
+</footer>
+</html>

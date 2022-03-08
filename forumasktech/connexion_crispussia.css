@@ -1,0 +1,162 @@
+body{
+    /*background-color: rgb(230, 230, 230);*/
+    background-image: url("https://picsum.photos/1080/720");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  form {
+  
+      overflow: hidden;
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 5px;
+      background-color: white;
+      width: 400px;
+      border-top: 5px solid blue;
+      border-radius: 5px;
+      padding: 10px;
+      padding-right: 30px;
+      margin: auto;
+      background-color: white;
+  
+    }
+    .overlay form
+    {
+      background-color: white;
+      border-radius: 10px;
+      width: 50vw;
+      min-width: 150px;
+      max-width: 400px;
+      height: 300px;
+      
+    
+    }
+    
+  /* Style the input container */
+  .input-container {
+      display: flex;
+      width:100%;
+      margin-bottom: 5px;
+      
+      
+    }
+    
+    /* Style the form icons */
+    .icon {
+      padding: 10px;
+      background: dodgerblue;
+      margin-left:5%;
+      color: white;
+      min-width: 20px;
+      text-align: center;
+      
+    }
+    /* Style the input fields */
+  .input-field {
+      width: 100%;
+      padding: 10px;
+      outline: none;
+    }
+    
+    
+    .input-field:focus {
+      border: 2px solid dodgerblue;
+    }
+  
+    .flex{
+      display: flex;
+      width: 100%;
+    }
+    .flex input{
+      width: 40px;
+    }
+  
+    .btn{  
+      border-radius: 4px;
+      height: 44px;
+      font-size: 13px;
+      font-weight: 600;
+      text-transform: uppercase;
+      -webkit-transition : all 200ms linear;
+      transition: all 200ms linear;
+      padding: 0 30px;
+      letter-spacing: 1px;
+      display: -webkit-inline-flex;
+      display: -ms-inline-flexbox;
+      display: inline-flex;
+      -webkit-align-items: center;
+      -moz-align-items: center;
+      -ms-align-items: center;
+      align-items: center;
+      -webkit-justify-content: center;
+      -moz-justify-content: center;
+      -ms-justify-content: center;
+      justify-content: center;
+      -ms-flex-pack: center;
+      text-align: center;
+      border: none;
+      background: dodgerblue;
+      color: #102770;
+      box-shadow: 0 8px 24px 0 rgba(255,235,167,.2);
+    }
+    .btn:active,
+    .btn:focus{  
+      background-color: #102770;
+      color: #ffeba7;
+      box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+    }
+    .btn:hover{  
+      background-color: #102770;
+      color: #ffeba7;
+      box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+    }
+.overlay
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(31, 24, 24, 0.274);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+			backdrop-filter: blur(10px);  
+
+
+}
+
+.entete
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	width: 100vw;
+}
+
+.entete input
+{
+	border: 1px solid orange;
+	background-color: white;
+	margin: 10px;
+	padding: 5px;
+	color: black;
+	font-weight: bold;
+	min-width: 100px;
+	border-radius: 5px;
+}
+
+.entete .full
+{
+	background-color: orange;
+	color: white;
+}
+

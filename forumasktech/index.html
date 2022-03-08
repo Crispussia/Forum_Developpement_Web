@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="connexion_crispussia.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>Connexion</title>
+</head>
+<body>
+    <div class = "overlay">
+		<div class = "entete">
+			<input type="submit" onClick="window.location.href='inscription_crispussia.html'" name="" value="S'inscrire" class="full">
+			<input type="submit" onClick="window.location.href='index.html'" name="" value="Se connecter">
+		</div>
+
+        <form>
+            <h1>Connexion</h1>
+    
+                <div  class="input-container">
+                    <i  class="fa fa-user icon"></i>
+                    <input type="text" class="input-field"  name="login" placeholder="Première lettre Majuscule reste en minuscule" id="login" autocomplete="off" required />
+                </div>
+            <br>
+            <!---->
+                <div  class="input-container">
+                    <i class="fa fa-key icon" ></i>
+                <input type="password" class="input-field" name="password" placeholder="Votre mot de passe" id="password" required/>
+                <i class="far fa-eye " id="togglePassword" style="margin-left: -20px; cursor: pointer;"></i>
+                </div>
+            <br>
+            <div   >    
+                
+                <input type="button"  class="btn" id="valider" name="connexion" value="Se connecter"  /> 
+            </div> 
+        </form>
+    </div>
+      
+    
+</body>
+<footer>
+	<script type="text/javascript" src="connexion_crispussia.js"></script>
+	
+</footer>
+</html>

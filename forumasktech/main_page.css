@@ -1,0 +1,254 @@
+.bande
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 15vh;
+	background-color: rgba(31, 24, 24, 0.274);
+	display: flex;
+	justify-content: center;
+}
+
+.main_page_center
+{
+	position: relative;
+	margin: 0 auto; 
+	top: 0%;
+	width: 50%;
+	height: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	overflow-y: scroll;
+	scrollbar-color: gray gray; 
+	scrollbar-width: thin;
+	/*overflow-x: hidden; */
+	
+}
+
+.main_page_left
+{
+	position: relative;
+	margin: 0; 
+	top: 0;
+	width: 25%;
+	height: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	
+	text-align: center;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.main_page_right
+{
+	position: relative;
+	margin: 0; 
+	top: 0;
+	width: 25%;
+	height: 100%;
+	
+	display: flex;
+	flex-direction: column;
+	
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+
+}
+
+.bigdiv
+{
+	position: relative;
+	margin: 0 auto; 
+	top: 15vh;
+	width: 70vw;
+	height: 85vh;
+	
+	display: flex;
+	flex-direction: row;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+	min-width: 70vw;
+	border-radius: 10px;
+}
+
+.infos_membres
+{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	margin: 10px 10px 10px 10px;
+	height: 30%;
+	border-radius: 10px;
+	padding-bottom: 7px;
+}
+
+.boutons_principaux
+{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	margin: 10px 10px 10px 10px;
+	height: 50%;
+	border-radius: 10px;
+	
+}
+
+.boutons_principaux input[type="button"]
+{
+	border: none;
+	
+	color: white;
+	margin: 5px;
+	padding: 5px;
+	border-radius: 20px;
+	width: 70%;
+	height: 15%;
+
+}
+
+.bouton_creer
+{
+	background-color: #17cee2;
+}
+
+.bouton_cloturer
+{
+	background-color: #47d32b;
+}
+
+.bouton_supprimer
+{
+	background-color: #db261d;
+}
+
+
+.bouton_stats
+{
+	background-color: darkorange;
+}
+
+.bouton_deconnexion
+{
+	background-color: deeppink;
+}
+
+.retour_sujets
+{
+	background-color: gray;
+}
+
+.boutons_principaux input[type="button"]:hover{  
+  background-color: #102770;
+  color: #ffeba7;
+  box-shadow: 0 8px 24px 0 rgba(16,39,112,.2);
+}
+.statistiques
+{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	margin: 10px 10px 10px 10px;
+	height: 50%;
+	border-radius: 10px;
+	padding-bottom: 7px;
+	margin: 10px;
+
+}
+
+.statistiques div 
+{
+	justify-content: center;
+	margin-top : 20px;
+	margin-left: 20px;
+
+}
+
+.statistiques h2
+{
+	text-align : center;
+}
+
+.sujet
+{
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	margin: 10px 10px 10px 10px;
+	height: 60px;
+	border-radius: 10px;
+	padding-bottom: 7px;
+	text-align: center;
+
+}
+
+.bouton_sujet, .bouton_cloturer_2, .bouton_supprimer2
+{
+
+	width: 100%;
+	height: 60px;
+	border-radius: 10px;
+	padding-bottom: 7px;
+	text-align: center;
+	background-color: white;
+	border: none;
+}
+
+.bouton_commentaire
+{
+	border: none;
+	color: blue;
+	
+	padding: 5px;
+	border-radius: 20px;
+	width: 15%;
+}
+
+.container_text_area
+{
+
+    padding-left: 15px;
+
+    width: 100%;
+    height: 50px;
+    margin-bottom: 40px;
+    flex-direction: row;
+}
+
+.text_area
+{
+    height: 100%;
+    width: 80%;
+    resize: none;
+}
+
+.container_messages
+{
+	padding-left: 15px;
+	padding-right: 15px;
+
+}
+
+.container_messages p
+{
+	width: 100%;
+	word-wrap: break-word;
+
+}
+
+.bouton_retour_sujets
+{
+	border: none;
+	color: blue;
+	
+	padding: 5px;
+	border-radius: 20px;
+	width: 40%;
+}
+
+h2
+{
+	margin: 10px;
+}
+
+#bouton_envoyer_sujet
+{
+	border: none;
+	color: blue;
+	
+	padding: 5px;
+	border-radius: 20px;
+	width: 40%;
+}
